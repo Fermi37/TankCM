@@ -21,7 +21,7 @@ struct CubatureSolver
         let xmax  = data.xmax
         var val: Double = 0
         var err: Double = 0
-        let _ =  function(&fdata, xmin, xmax, 1e-4, &val, &err)
+        let _ =  function(&fdata, xmin, xmax, 1e-3, &val, &err)
         return CubatureResult(value: val, error: err)
     }
 }

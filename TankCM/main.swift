@@ -9,11 +9,11 @@
 import Foundation
 
 let diameter = Diameter<Cylinder>(value: 3)
-let cylinder = Cylinder(lc: 10.77 - 2 * (0.66 - 0.08), diameter: diameter, liquidLevel: 0.1)
-let tankBottom = TankBottom(ratioR2: 0.5, diameter: diameter, liquidLevel: 0.1)
+let cylinder = Cylinder(lc: 10.9 - 2 * (0.66 - 0.08), diameter: diameter, liquidLevel: 0.1)
+let tankBottom = TankBottom(ho: 0.66 - 0.08, diameter: diameter, liquidLevel: 0.1)
 
 
-let levels = (0.2 ..< 1).linspace(numIntervals: 5)
+let levels = (0.2 ..< 1).linspace(numIntervals: 20)
 let taskController = TaskController(cylinder: cylinder, tankBottom: tankBottom, luquidLevels: levels)
 print(taskController.results)
 

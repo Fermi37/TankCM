@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00069D981F07C13E0017DEE7 /* ComplexGeometricShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00069D971F07C13E0017DEE7 /* ComplexGeometricShapeType.swift */; };
+		00069D981F07C13E0017DEE7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00069D971F07C13E0017DEE7 /* Protocols.swift */; };
 		00069D9A1F07C2120017DEE7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00069D991F07C2120017DEE7 /* Task.swift */; };
 		00069D9C1F07C9BB0017DEE7 /* StorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00069D9B1F07C9BB0017DEE7 /* StorageController.swift */; };
 		003B86E81F0708B4008E9DEF /* ComputedPropities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B86E71F0708B4008E9DEF /* ComputedPropities.swift */; };
@@ -17,11 +17,9 @@
 		004C00611F06D80900CBC09A /* pcubature.c in Sources */ = {isa = PBXBuildFile; fileRef = 004C005B1F06D80900CBC09A /* pcubature.c */; };
 		004C00621F06D80900CBC09A /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 004C005D1F06D80900CBC09A /* test.c */; };
 		004C00801F06D82D00CBC09A /* Cisterna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C00651F06D82D00CBC09A /* Cisterna.swift */; };
-		004C00841F06D82D00CBC09A /* PropertyComputing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C00691F06D82D00CBC09A /* PropertyComputing.swift */; };
 		004C00861F06D82D00CBC09A /* CubatureResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C006B1F06D82D00CBC09A /* CubatureResult.swift */; };
 		004C00871F06D82D00CBC09A /* CubatureSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C006C1F06D82D00CBC09A /* CubatureSolver.swift */; };
 		004C00881F06D82D00CBC09A /* Cylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C006D1F06D82D00CBC09A /* Cylinder.swift */; };
-		004C00891F06D82D00CBC09A /* Serializator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C006E1F06D82D00CBC09A /* Serializator.swift */; };
 		004C008A1F06D82D00CBC09A /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C006F1F06D82D00CBC09A /* Diameter.swift */; };
 		004C008C1F06D82D00CBC09A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C00711F06D82D00CBC09A /* Extension.swift */; };
 		004C008D1F06D82D00CBC09A /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C00721F06D82D00CBC09A /* Functions.swift */; };
@@ -54,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00069D971F07C13E0017DEE7 /* ComplexGeometricShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexGeometricShapeType.swift; sourceTree = "<group>"; };
+		00069D971F07C13E0017DEE7 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		00069D991F07C2120017DEE7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		00069D9B1F07C9BB0017DEE7 /* StorageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageController.swift; sourceTree = "<group>"; };
 		003B86E71F0708B4008E9DEF /* ComputedPropities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputedPropities.swift; sourceTree = "<group>"; };
@@ -74,11 +72,9 @@
 		004C005D1F06D80900CBC09A /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		004C005E1F06D80900CBC09A /* vwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vwrapper.h; sourceTree = "<group>"; };
 		004C00651F06D82D00CBC09A /* Cisterna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cisterna.swift; sourceTree = "<group>"; };
-		004C00691F06D82D00CBC09A /* PropertyComputing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyComputing.swift; sourceTree = "<group>"; };
 		004C006B1F06D82D00CBC09A /* CubatureResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubatureResult.swift; sourceTree = "<group>"; };
 		004C006C1F06D82D00CBC09A /* CubatureSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubatureSolver.swift; sourceTree = "<group>"; };
 		004C006D1F06D82D00CBC09A /* Cylinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cylinder.swift; sourceTree = "<group>"; };
-		004C006E1F06D82D00CBC09A /* Serializator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializator.swift; sourceTree = "<group>"; };
 		004C006F1F06D82D00CBC09A /* Diameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 		004C00711F06D82D00CBC09A /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		004C00721F06D82D00CBC09A /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -216,8 +212,7 @@
 		004C009A1F06D9C700CBC09A /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				004C00691F06D82D00CBC09A /* PropertyComputing.swift */,
-				00069D971F07C13E0017DEE7 /* ComplexGeometricShapeType.swift */,
+				00069D971F07C13E0017DEE7 /* Protocols.swift */,
 			);
 			name = Protocol;
 			sourceTree = "<group>";
@@ -251,7 +246,6 @@
 		004C00AE1F07037B00CBC09A /* Storage */ = {
 			isa = PBXGroup;
 			children = (
-				004C006E1F06D82D00CBC09A /* Serializator.swift */,
 				00069D9B1F07C9BB0017DEE7 /* StorageController.swift */,
 			);
 			name = Storage;
@@ -325,7 +319,7 @@
 				004C00881F06D82D00CBC09A /* Cylinder.swift in Sources */,
 				004C00861F06D82D00CBC09A /* CubatureResult.swift in Sources */,
 				0042D9841F071AEB0029364B /* RangedProperties.swift in Sources */,
-				00069D981F07C13E0017DEE7 /* ComplexGeometricShapeType.swift in Sources */,
+				00069D981F07C13E0017DEE7 /* Protocols.swift in Sources */,
 				004FCFC91F09366100386F88 /* Aliases.swift in Sources */,
 				004C00601F06D80900CBC09A /* hcubature.c in Sources */,
 				004C00801F06D82D00CBC09A /* Cisterna.swift in Sources */,
@@ -336,14 +330,12 @@
 				004C00A71F06E4F300CBC09A /* MomentOfVolumeY.swift in Sources */,
 				003B86E81F0708B4008E9DEF /* ComputedPropities.swift in Sources */,
 				004C008A1F06D82D00CBC09A /* Diameter.swift in Sources */,
-				004C00891F06D82D00CBC09A /* Serializator.swift in Sources */,
 				004C004C1F06D79200CBC09A /* main.swift in Sources */,
 				004C008C1F06D82D00CBC09A /* Extension.swift in Sources */,
 				004C00971F06D82D00CBC09A /* Tree.swift in Sources */,
 				004C00AB1F06EB8000CBC09A /* Area.swift in Sources */,
 				004C00611F06D80900CBC09A /* pcubature.c in Sources */,
 				004C008D1F06D82D00CBC09A /* Functions.swift in Sources */,
-				004C00841F06D82D00CBC09A /* PropertyComputing.swift in Sources */,
 				004C00A51F06E4D600CBC09A /* Volume.swift in Sources */,
 				0094B50F1F09235B003F0977 /* TaskController.swift in Sources */,
 				004C00AD1F06EC3A00CBC09A /* MomentOfAreaY.swift in Sources */,

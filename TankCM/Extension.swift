@@ -51,13 +51,6 @@ extension Array where Element == [String: Double] {
     }
 }
 
-//extension Array where Element == ComputedPropities {
-//
-//    func serialize() -> [[ResultColumn: Double]] {
-//        return self.map {$0.serialize()}
-//    }
-//}
-
 // MARK: -Dimension
 extension Dimension {
     var coefficient: Double {
